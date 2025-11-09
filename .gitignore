@@ -1,4 +1,18 @@
-node_modules/
-dist/
+# General
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Environment files (якщо раптом додаси)
 .env
-*.log
+.env.local
+.env.production
+.env.*.local
+
+# OS-specific / backups
+*.backups
+.ntfs*
