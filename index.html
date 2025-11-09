@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="wrap">
+<h1 id="title">Password Generator</h1>
+
+
+<section class="controls">
+<label>Довжина: <span id="lenVal">12</span></label>
+<input id="length" type="range" min="4" max="32" value="12">
+
+
+<div class="checks">
+<label><input id="lower" type="checkbox" checked> lowercase</label>
+<label><input id="upper" type="checkbox" checked> UPPERCASE</label>
+<label><input id="numbers" type="checkbox" checked> numbers</label>
+<label><input id="symbols" type="checkbox"> symbols</label>
+</div>
+
+
+<div class="buttons">
+<button id="gen">Generate</button>
+<button id="copy">Copy</button>
+</div>
+</section>
+
+
+<section class="output">
+<div id="result">—</div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
